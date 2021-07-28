@@ -1,0 +1,9 @@
+body {
+    background: coral;
+    background: -webkit-linear-gradient(to left, #8d817f, #cecac5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #8d5d58, #33312f);
+}
+#container {
+
+}

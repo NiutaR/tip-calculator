@@ -1,0 +1,45 @@
+body {
+    background: coral;
+    background: -webkit-linear-gradient(to left, #8d817f, #cecac5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #8d5d58, #33312f);
+}
+
+h1 {
+    text-align: center;
+}
+#mainForm {
+    text-align: center;
+    border: 2px solid black;
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+}
+label {
+    display: inl;
+}
+p {
+    font-size: 20px;
+}
+button {
+    font-size: 25px;
+    margin-top: 20px;
+    background-color: #8d817f;
+    box-sizing: border-box;
+
+   
+}
+button:before {
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 42px;
+    background: rgba(59, 21, 21, 0.3);
+    border-radius: 5px;
+    transition: all 2s ease;
+}
+button:hover:before {
+	width: 100%;
+}
